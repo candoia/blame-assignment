@@ -1,0 +1,11 @@
+# get project stats
+p: Project = input;
+
+DEVs : output sum[string] of int;
+threshold:int = 20;
+visit(p, visitor {
+    before rev : Revision -> {
+	     if(len(rev.files) > threshold)
+               DEVs[rev.committer.username] << 1;
+    }   
+});

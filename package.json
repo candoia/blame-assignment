@@ -1,0 +1,16 @@
+{
+  "name": “commit-blame“,
+  "productName": “Commit Blame”,
+  "version": "0.1.1",
+  "author": “Nitin Mukesh Tiwari<nmtiwari@iastate.edu>",
+  "description": "Displays the number of commits per username which are larger than the threshold size.”,
+  "main": "main.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candoia/blame_assignment”
+  },
+  "icon": {
+    "type": "fa",
+    "name": "pie-chart"
+  }
+}
